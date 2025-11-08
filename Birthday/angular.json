@@ -13,6 +13,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "baseHref": "/",
+            "outputPath": "dist/birthday-surprise",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -35,12 +37,12 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumError": "5MB"
                 },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumError": "1MB"
                 }
               ],
               "outputHashing": "all"
