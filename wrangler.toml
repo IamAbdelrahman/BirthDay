@@ -2,7 +2,7 @@ name = "Birthday"
 compatibility_date = "2025-11-8"
 
 [pages]
-build_output_dir = "./dist/Demo/browser"
+build_output_dir = "./dist/birthday-surprise/browser"
 
 [[redirects]]
 from = "/*"
