@@ -1,0 +1,10 @@
+name = "Birthday"
+compatibility_date = "2025-11-8"
+
+[pages]
+build_output_dir = "./dist/Demo/browser"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
